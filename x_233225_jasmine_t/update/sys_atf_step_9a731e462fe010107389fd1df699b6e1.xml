@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:33:19</sys_created_on>
+        <sys_id>9a731e462fe010107389fd1df699b6e1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_update_name>sys_atf_step_9a731e462fe010107389fd1df699b6e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 22:26:50</sys_updated_on>
+        <table/>
+        <test display_value="MathOperationFP - PerformOperation">44635e462fe010107389fd1df699b680</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=9a731e462fe010107389fd1df699b6e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9a731e462fe010107389fd1df699b6e1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:33:19</sys_created_on>
+        <sys_id>68835e462fe010107389fd1df699b687</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 22:26:50</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+    var mathFP = new MathFP();&#13;
+    describe('MathOperationFP - PerformSimpleOperation', function() {&#13;
+        it('PerformSimpleOperation - Add - Verifies Sum', function() {&#13;
+            var EXPECTED = 5;&#13;
+            var result = mathFP.PerformSimpleOperation('add', 2, 3);&#13;
+            expect(result).toBe(EXPECTED);&#13;
+        });&#13;
+        it('PerformOperation - Subtract - Verifies Difference', function() {&#13;
+            var EXPECTED = 1;&#13;
+            var result = mathFP.PerformSimpleOperation('subtract', 3, 2);&#13;
+            expect(result).toBe(EXPECTED);&#13;
+        });&#13;
+        it('PerformOperation - Invalid Operation - Throws Error', function() {&#13;
+			var errorMatch = new RegExp(JasmineTestSetupConstantsFP.ERRORS.INVALID_OPERATION, 'g');&#13;
+            var badFn = function() {&#13;
+                mathFP.PerformSimpleOperation('mean', 3, 2);&#13;
+            };&#13;
+            expect(badFn).toThrowError(errorMatch);&#13;
+        });&#13;
+    });&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9a731e462fe010107389fd1df699b6e1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:33:19</sys_created_on>
+        <sys_id>a0835e462fe010107389fd1df699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 19:33:19</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

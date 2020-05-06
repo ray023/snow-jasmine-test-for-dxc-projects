@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_233225_jasmine_t.MathConstantsFP</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MathConstantsFP</name>
+        <script><![CDATA[var MathConstantsFP = {
+    TABLES: {
+		EXPENSE_SUMMARY: 'x_233225_jasmine_t_expensesummary',
+		EXPENSE: 'x_233225_jasmine_t_expense',
+	},
+    ERRORS: {
+        INVALID_OPERATION: 'Invalid operation passed',
+    },
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:48:36</sys_created_on>
+        <sys_id>e0f6124a2fe010107389fd1df699b669</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MathConstantsFP</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_update_name>sys_script_include_e0f6124a2fe010107389fd1df699b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 20:08:35</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</application>
+        <file_path/>
+        <instance_id>994a29c8db3ec85049eac597059619c1</instance_id>
+        <instance_name>dev98772</instance_name>
+        <name>sys_script_include_e0f6124a2fe010107389fd1df699b669</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_233225_jasmine_t.MathConstantsFP&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;MathConstantsFP&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var MathConstantsFP = {
+    TABLES: {
+		EXPENSE_SUMMARY: 'x_233225_jasmine_t_expensesummary',
+		EXPENSE: 'x_233225_jasmine_t_expense',
+	},
+    ERRORS: {
+        INVALID_OPERATION: 'Invalid operation passed',
+    },
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-04 19:48:36&lt;/sys_created_on&gt;&lt;sys_id&gt;e0f6124a2fe010107389fd1df699b669&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;MathConstantsFP&lt;/sys_name&gt;&lt;sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t"&gt;7dd216462fe010107389fd1df699b61d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Jasmine Test Setup"&gt;7dd216462fe010107389fd1df699b61d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e0f6124a2fe010107389fd1df699b669&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-04 20:08:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1767124575</payload_hash>
+        <record_name>MathConstantsFP</record_name>
+        <reverted_from/>
+        <source>fdd216462fe010107389fd1df699b61f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 20:08:35</sys_created_on>
+        <sys_id>4d9bda0e2fe010107389fd1df699b65f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e14df65a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 20:08:35</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c59bda0e5ee01010190e56d131c6a25f</update_guid>
+        <update_guid_history>c59bda0e5ee01010190e56d131c6a25f:-1767124575,8a971ac6dde010106de071eaf27c17a1:1075188590,3387124a2ee01010b63f40fa3e807a74:-300622000,6c07124a79e01010781f86b69e61c06e:-1057805134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 20:11:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0927fdd4e92844909031ad03308d0ca4</sys_id>
+        <sys_metadata>e0f6124a2fe010107389fd1df699b669</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MathConstantsFP</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_scope_delete display_value="">0757fbee937e46e480653e2c768ca090</sys_scope_delete>
+        <sys_update_name>sys_script_include_e0f6124a2fe010107389fd1df699b669</sys_update_name>
+        <sys_update_version display_value="sys_script_include_e0f6124a2fe010107389fd1df699b669">4d9bda0e2fe010107389fd1df699b65f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 20:11:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

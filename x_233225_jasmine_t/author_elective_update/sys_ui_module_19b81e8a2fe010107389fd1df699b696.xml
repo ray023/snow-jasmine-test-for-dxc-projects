@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="SimpleTable">1db81e8a2fe010107389fd1df699b67a</application>
+        <filter/>
+        <name>SimpleTables</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_233225_jasmine_t.simpletable_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:56:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19b81e8a2fe010107389fd1df699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SimpleTables</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_update_name>sys_ui_module_19b81e8a2fe010107389fd1df699b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 19:56:02</sys_updated_on>
+        <table>x_233225_jasmine_t_simpletable</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</application>
+        <file_path/>
+        <instance_id>994a29c8db3ec85049eac597059619c1</instance_id>
+        <instance_name>dev98772</instance_name>
+        <name>sys_ui_module_19b81e8a2fe010107389fd1df699b696</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="SimpleTable">1db81e8a2fe010107389fd1df699b67a</application><filter/><name>SimpleTables</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_233225_jasmine_t.simpletable_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-04 19:56:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>19b81e8a2fe010107389fd1df699b696</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SimpleTables</sys_name><sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package><sys_policy/><sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope><sys_update_name>sys_ui_module_19b81e8a2fe010107389fd1df699b696</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-04 19:56:02</sys_updated_on><table>x_233225_jasmine_t_simpletable</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1891726427</payload_hash>
+        <record_name>SimpleTables</record_name>
+        <reverted_from/>
+        <source>fdd216462fe010107389fd1df699b61f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:56:02</sys_created_on>
+        <sys_id>55b81e8a2fe010107389fd1df699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e14279480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 19:56:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9db81e8a6be01010032c25e6ec8a7098</update_guid>
+        <update_guid_history>9db81e8a6be01010032c25e6ec8a7098:1891726427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:57:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>e0af577e68ce4c30af46ec1f8bf83900</sys_id>
+        <sys_metadata>19b81e8a2fe010107389fd1df699b696</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SimpleTables</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_scope_delete display_value="">0757fbee937e46e480653e2c768ca090</sys_scope_delete>
+        <sys_update_name>sys_ui_module_19b81e8a2fe010107389fd1df699b696</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_19b81e8a2fe010107389fd1df699b696">55b81e8a2fe010107389fd1df699b699</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 19:57:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

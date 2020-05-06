@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Expense" max_length="40" name="x_233225_jasmine_t_expense" sizeclass="2" type="collection">
+        <element label="ExpenseDate" max_length="40" name="expensedate" type="glide_date"/>
+        <element label="ExpenseType" max_length="40" name="expensetype" type="string"/>
+        <element label="Cost" max_length="20" name="value" type="currency"/>
+    </element>
+</database>

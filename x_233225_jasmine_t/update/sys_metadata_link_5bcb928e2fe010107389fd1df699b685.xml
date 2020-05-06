@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0fe9920e2fe010107389fd1df699b6cc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_233225_jasmine_t_expense">
+    <x_233225_jasmine_t_expense action="INSERT_OR_UPDATE">
+        <expensedate>2020-05-04</expensedate>
+        <expensetype>Power</expensetype>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 20:01:21</sys_created_on>
+        <sys_id>0fe9920e2fe010107389fd1df699b6cc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 20:09:10</sys_updated_on>
+        <value>150</value>
+    </x_233225_jasmine_t_expense>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 20:09:33</sys_created_on>
+        <sys_id>5bcb928e2fe010107389fd1df699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2020-05-04 15:01:21</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_update_name>sys_metadata_link_5bcb928e2fe010107389fd1df699b685</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 20:09:33</sys_updated_on>
+        <tablename>x_233225_jasmine_t_expense</tablename>
+    </sys_metadata_link>
+</record_update>

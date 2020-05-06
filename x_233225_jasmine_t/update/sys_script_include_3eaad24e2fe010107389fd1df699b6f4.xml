@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_233225_jasmine_t.ExpenseOperationFP</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ExpenseOperationFP</name>
+        <script><![CDATA[var ExpenseOperationFP = (function() {
+	var _expenseType = '';
+    var ExpenseOperationFP = function(expenseType) {
+		_expenseType = expenseType;
+	};
+
+    var removeExistingSummaryRecord = function() {
+        var gr = new GlideRecord(JasmineTestSetupConstantsFP.TABLES.EXPENSE_SUMMARY);
+        gr.addQuery('expensetype', _expenseType);
+        gr.query();
+        gr.deleteMultiple();
+    };
+	var getSummaryCost = function() {
+		var SUM = 'SUM';
+		var agg = new GlideAggregate(JasmineTestSetupConstantsFP.TABLES.EXPENSE);
+		agg.addQuery('expensetype', _expenseType);
+		agg.addAggregate(SUM, 'value');
+		agg.groupBy('expensetype');
+		agg.query();
+		if (!agg.next()) {
+			return 0;
+		}
+		return agg.getAggregate(SUM, 'value');
+	};
+	var saveExpenseSummary = function(summaryCost) {
+		var gr = new GlideRecord(JasmineTestSetupConstantsFP.TABLES.EXPENSE_SUMMARY);
+		gr.initialize();
+		gr.setValue('expensetype', _expenseType);
+		gr.setValue('sum', summaryCost);
+		gr.insert();
+	};
+	
+    var calculateExpenseSummary = function() {
+        removeExistingSummaryRecord();
+        var summaryCost = getSummaryCost();
+		saveExpenseSummary(summaryCost);
+    };
+
+    ExpenseOperationFP.prototype = {
+        CalculateExpenseSummary: calculateExpenseSummary,
+    };
+    return ExpenseOperationFP;
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 20:04:56</sys_created_on>
+        <sys_id>3eaad24e2fe010107389fd1df699b6f4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>ExpenseOperationFP</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_update_name>sys_script_include_3eaad24e2fe010107389fd1df699b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 22:02:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

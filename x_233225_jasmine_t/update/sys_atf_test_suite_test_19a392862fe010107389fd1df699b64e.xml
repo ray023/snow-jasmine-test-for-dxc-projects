@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 19:34:19</sys_created_on>
+        <sys_id>19a392862fe010107389fd1df699b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>44635e462fe010107389fd1df699b680</sys_name>
+        <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_19a392862fe010107389fd1df699b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 19:34:19</sys_updated_on>
+        <test display_value="MathOperationFP - PerformOperation">44635e462fe010107389fd1df699b680</test>
+        <test_suite display_value="MathOperationFP">ba9352862fe010107389fd1df699b6ca</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

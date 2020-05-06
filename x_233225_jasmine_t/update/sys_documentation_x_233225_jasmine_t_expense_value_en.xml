@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="value" label="Cost" language="en" table="x_233225_jasmine_t_expense">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <help/>
+            <hint/>
+            <label>Cost</label>
+            <language>en</language>
+            <name>x_233225_jasmine_t_expense</name>
+            <plural>Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-04 19:58:50</sys_created_on>
+            <sys_id>d2599aca2fe010107389fd1df699b61e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Cost</sys_name>
+            <sys_package display_value="Jasmine Test Setup" source="x_233225_jasmine_t">7dd216462fe010107389fd1df699b61d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jasmine Test Setup">7dd216462fe010107389fd1df699b61d</sys_scope>
+            <sys_update_name>sys_documentation_x_233225_jasmine_t_expense_value_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-04 20:02:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

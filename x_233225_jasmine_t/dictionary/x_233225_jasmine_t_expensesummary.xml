@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ExpenseSummary" max_length="40" name="x_233225_jasmine_t_expensesummary" sizeclass="3" type="collection">
+        <element label="ExpenseType" max_length="40" name="expensetype" type="string"/>
+        <element label="Sum" max_length="20" name="sum" type="currency"/>
+    </element>
+</database>
